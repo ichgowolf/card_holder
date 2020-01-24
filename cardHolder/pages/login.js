@@ -6,14 +6,6 @@ import LoginAccount from '../components/loginaccount.js'
 
 
 class Login extends React.Component {
-    state = {
-       email : '',
-       password : '',
-    }
-    handleInputChange=(e)=>{
-        
-        this.setState({[e.target.name]:e.target.value})
-    }
 
     render() {
         return <View>
